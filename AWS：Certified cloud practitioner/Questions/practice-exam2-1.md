@@ -169,7 +169,7 @@ directly with the users.  
     </details>
 
 
-17.  A developer wants to deploy an application quickly on AWS without manually creating the required resources. Which AWS service will meet these requirements?      
+17.  A developer wants to deploy an application quickly on AWS without manually creating the required resources. Which AWS service will meet these requirements?
     - A. Amazon EC2  
     - B. AWS Elastic Beanstalk  
     - C. AWS CodeBuild          
