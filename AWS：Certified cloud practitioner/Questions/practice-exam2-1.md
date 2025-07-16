@@ -1,4 +1,4 @@
-1. A company plans to use an Amazon Snowball Edge device to transfer les to the AWS Cloud. Which activities related to a Snowball Edge device are available to the company at no cost?    
+1. A company plans to use an Amazon Snowball Edge device to transfer les to the AWS Cloud. Which activities related to a Snowball Edge device are available to the company at no cost?        
     - A. Use of the Snowball Edge appliance for a 10-day period
     - B. The transfer of data out of Amazon S3 and to the Snowball Edge appliance
     - C. The transfer of data from the Snowball Edge appliance into Amazon S3  
@@ -94,7 +94,7 @@ directly with the users.  
       Correct answer: AE  
     </details>
 
-10. Which of the following are benets of using AWS Trusted Advisor? (Choose two.)     
+10. Which of the following are benets of using AWS Trusted Advisor? (Choose two.)       
     - A. Providing high-performance container orchestration
     - B. Creating and rotating encryption keys
     - C. Detecting underutilized resources to save costs
@@ -137,7 +137,7 @@ directly with the users.  
     </details>
 
 
-14. A company is using a central data platform to manage multiple types of data for its customers. The company wants to use AWS services to discover, transform, and visualize the data. Which combination of AWS services should the company use to meet these requirements? (Choose two.)     
+14. A company is using a central data platform to manage multiple types of data for its customers. The company wants to use AWS services to discover, transform, and visualize the data. Which combination of AWS services should the company use to meet these requirements? (Choose two.)       
     - A. AWS Glue
     - B. Amazon Elastic File System (Amazon EFS)
     - C. Amazon Redshift
@@ -148,13 +148,13 @@ directly with the users.  
       Correct answer: AD
     </details>
 
-15.  A global company wants to migrate its third-party applications to the AWS Cloud. The company wants help from a global team of experts to complete the migration faster and more reliably in accordance with AWS internal best practices. Which AWS service or resource will meet these requirements?      
+15.  A global company wants to migrate its third-party applications to the AWS Cloud. The company wants help from a global team of experts to complete the migration faster and more reliably in accordance with AWS internal best practices. Which AWS service or resource will meet these requirements?   
     - A. AWS Support  
     - B. AWS Professional Services      
     - C. AWS Launch Wizard  
-    - D. AWS Managed Services (AMS)   
+    - D. AWS Managed Services (AMS)     
 
-    <details markdown=1><summary markdown='span'>Answer</summary>            
+    <details markdown=1><summary markdown='span'>Answer</summary>                    
       Correct answer: B
     </details>
 
@@ -169,23 +169,23 @@ directly with the users.  
     </details>
 
 
-17.  A developer wants to deploy an application quickly on AWS without manually creating the required resources. Which AWS service will meet these requirements?
-    - A. Amazon EC2  
-    - B. AWS Elastic Beanstalk  
+17.  A developer wants to deploy an application quickly on AWS without manually creating the required resources. Which AWS service will meet these requirements?  
+    - A. Amazon EC2    
+    - B. AWS Elastic Beanstalk    
     - C. AWS CodeBuild          
     - D. Amazon Personalize         
 
-    <details markdown=1><summary markdown='span'>Answer</summary>        
+    <details markdown=1><summary markdown='span'>Answer</summary>                              
       Correct answer: B
     </details>
 
-18. A company is storing sensitive customer data in an Amazon S3 bucket. The company wants to protect the data from accidental deletion or overwriting. Which S3 feature should the company use to meet these requirements?     
+18. A company is storing sensitive customer data in an Amazon S3 bucket. The company wants to protect the data from accidental deletion or overwriting. Which S3 feature should the company use to meet these requirements?       
     - A. S3 Lifecycle rules      
-    - B. S3 Versioning  
+    - B. S3 Versioning    
     - C. S3 bucket policies
-    - D. S3 server-side encryption   
+    - D. S3 server-side encryption     
 
-    <details markdown=1><summary markdown='span'>Answer</summary>            
+    <details markdown=1><summary markdown='span'>Answer</summary>              
       Correct answer: B    
     </details>  
 
