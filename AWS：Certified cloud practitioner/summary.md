@@ -44,9 +44,11 @@ Amazon Machine Image 启动EC2实例的模板镜像，包含了操作系统、�
 一份 AMI 可以启动多个 EC2，像“批量复制系统”  
 
 
+**Snowball**
+**大规模数据迁移**的物理设备服务，适用于无法通过网络快速传输数据到云端的场景  
 
-AWS Snowball
-AWS Redshift
+
+Redshift
 Storage gateway
 Amazon EBS Snapshots
 Amazon EBS Volumes
