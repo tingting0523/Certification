@@ -16,10 +16,10 @@
     - D. Amazon GuardDuty   
 
     <details markdown=1><summary markdown='span'>Answer</summary>          
-      Correct answer: B  
+      Correct answer: B    
     </details>  
 
-3. A company has a centralized group of users with large le storage requirements that have exceeded the space available on premises. The company wants to extend its le storage capabilities for this group while retaining the performance benet of sharing content locally. What is the MOST operationally ecient AWS solution for this scenario?     
+3. A company has a centralized group of users with large le storage requirements that have exceeded the space available on premises. The company wants to extend its le storage capabilities for this group while retaining the performance benet of sharing content locally. What is the MOST operationally ecient AWS solution for this scenario?       
     - A. Create an Amazon S3 bucket for each user. Mount each bucket by using an S3 le system mounting utility.  
     - B. Congure and deploy an AWS Storage Gateway le gateway. Connect each user’s workstation to the le gateway.
     - C. Move each user’s working environment to Amazon WorkSpaces. Set up an Amazon WorkDocs account for each user.
@@ -75,7 +75,7 @@ directly with the users.  
 
 8. A company wants to run a NoSQL database on Amazon EC2 instances. Which task is the responsibility of AWS in this scenario?     
     - A. Update the guest operating system of the EC2 instances.
-    - B. Maintain high availability at the database layer.
+    - B. Maintain high availability at the database layer.  
     - C. Patch the physical infrastructure that hosts the EC2 instances.
     - D. Congure the security group rewall.         
 
@@ -98,7 +98,7 @@ directly with the users.  
     - A. Providing high-performance container orchestration
     - B. Creating and rotating encryption keys
     - C. Detecting underutilized resources to save costs
-    - D. Improving security by proactively monitoring the AWS environment
+    - D. Improving security by proactively monitoring the AWS environment  
     - E. Implementing enforced tagging across AWS resources       
 
     <details markdown=1><summary markdown='span'>Answer</summary>        
@@ -112,8 +112,8 @@ directly with the users.  
     - C. Distribution of all operational controls to AWS  
     - D. Elimination of operational expenses       
 
-    <details markdown=1><summary markdown='span'>Answer</summary>                
-      Correct answer: A  
+    <details markdown=1><summary markdown='span'>Answer</summary>                  
+      Correct answer: A    
     </details>
 
 12.  A company wants to manage deployed IT services and govern its infrastructure as code (IaC) templates. Which AWS service will meet this requirement?    
@@ -180,35 +180,34 @@ directly with the users.  
     </details>
 
 18. A company is storing sensitive customer data in an Amazon S3 bucket. The company wants to protect the data from accidental deletion or overwriting.  Which S3 feature should the company use to meet these requirements?   
-    - A. S3 Lifecycle rules  
+    - A. S3 Lifecycle rules    
     - B. S3 Versioning  
     - C. S3 bucket policies
     - D. S3 server-side encryption   
 
     <details markdown=1><summary markdown='span'>Answer</summary>            
-      Correct answer: B
-    </details>
+      Correct answer: B  
+    </details>  
 
 19. Which AWS service provides the ability to manage infrastructure as code?
-    - A. AWS CodePipeline  
+    - A. AWS CodePipeline    
     - B. AWS CodeDeploy
     - C. AWS Direct Connect
     - D. AWS CloudFormation           
 
-    <details markdown=1><summary markdown='span'>Answer</summary>        
-      Correct answer: D
+    <details markdown=1><summary markdown='span'>Answer</summary>          
+      Correct answer: D  
     </details>
 
 
-20.  An online gaming company needs to choose a purchasing option to run its Amazon EC2 instances for 1 year. The web trac is consistent, and any increases in trac are predictable. The EC2 instances must be online and available without any disruption.
-Which EC2 instance purchasing option will meet these requirements MOST cost-effectively?
-A. On-Demand Instances
-B. Reserved Instances  
-C. Spot Instances
-D. Spot Fleet    
-    -    
+20.  An online gaming company needs to choose a purchasing option to run its Amazon EC2 instances for 1 year. The web trac is consistent, and any increases in trac are predictable. The EC2 instances must be online and available without any disruption.  
+Which EC2 instance purchasing option will meet these requirements MOST cost-effectively?  
+    - A. On-Demand Instances
+    - B. Reserved Instances    
+    - C. Spot Instances
+    - D. Spot Fleet      
 
-    <details markdown=1><summary markdown='span'>Answer</summary>        
+    <details markdown=1><summary markdown='span'>Answer</summary>          
       Correct answer: B
     </details>
 
