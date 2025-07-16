@@ -44,11 +44,31 @@ Amazon Machine Image 启动EC2实例的模板镜像，包含了操作系统、�
 一份 AMI 可以启动多个 EC2，像“批量复制系统”  
 
 
-**Snowball**
+**Snowball**。
 **大规模数据迁移**的物理设备服务，适用于无法通过网络快速传输数据到云端的场景  
+用于数据中心迁移、灾难恢复、无法联网地区、大数据处理  
+快速、离线、安全，适用于10TB–1PB 数据迁移  
+
+**Glue、Redshift、QuickSight** 
+原始数据 --（Glue自动采集清洗转换）--〉AWS GLUE ETL  
+        -- (数据加载)--〉Amazon Redshift数据仓库  
+        --（查询分析）--〉Amazon QuickSight可视化和BI  
+
+1. AWS Glue  
+serverless的托管数据集成服务，用于**自动发现、准备和转换数据**，方便在数据湖、数据仓库和数据库间进行ETL处理。  
+数据的“万能搬运工”和“清洗师”,自动生成 ETL 代码，帮你转换、清洗、准备数据  
+2. Redshift  
+高速、完全托管的**云数据仓库服务**，用于大规模数据分析和复杂查询  
+列式存储，支持标准 SQL 查询，兼容多种 BI 工具（如 Tableau、Power BI）  
+能够快速处理数 TB 到 PB 级别的数据  
+3. Amazon QuickSight
+AWS提供的快速、云端托管的商业智能（BI）服务，用于创建交互式数据可视化和仪表盘。  
+QuickSight 是一款**在线工具**，帮助用户轻松连接数据源，**快速生成图表、报表和仪表盘**  
 
 
-Redshift
+
+
+
 Storage gateway
 Amazon EBS Snapshots
 Amazon EBS Volumes
