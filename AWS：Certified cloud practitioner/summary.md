@@ -1,4 +1,4 @@
-**SNS** 
+**SNS**  
 SNS 发布消息 → SQS 订阅接收
 **SQS（Simple Queue Service）** 
 托管的消息队列服务。
