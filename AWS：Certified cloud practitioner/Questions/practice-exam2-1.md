@@ -1,4 +1,4 @@
-1. A company plans to use an Amazon Snowball Edge device to transfer les to the AWS Cloud. Which activities related to a Snowball Edge device are available to the company at no cost?  
+1. A company plans to use an Amazon Snowball Edge device to transfer les to the AWS Cloud. Which activities related to a Snowball Edge device are available to the company at no cost?    
     - A. Use of the Snowball Edge appliance for a 10-day period
     - B. The transfer of data out of Amazon S3 and to the Snowball Edge appliance
     - C. The transfer of data from the Snowball Edge appliance into Amazon S3  
@@ -42,10 +42,10 @@ directly with the users.  
 
 
 
-5.  Which option is a customer responsibility when using Amazon DynamoDB under the AWS Shared Responsibility Model?      
+5.  Which option is a customer responsibility when using Amazon DynamoDB under the AWS Shared Responsibility Model?        
     - A. Physical security of DynamoDB
     - B. Patching of DynamoDB
-    - C. Access to DynamoDB tables
+    - C. Access to DynamoDB tables  
     - D. Encryption of data at rest in DynamoDB     
 
     <details markdown=1><summary markdown='span'>Answer</summary>          
@@ -54,7 +54,7 @@ directly with the users.  
 
 6. Which option is a perspective that includes foundational capabilities of the AWS Cloud Adoption Framework (AWS CAF)?     
     - A. Sustainability  
-    - B. Performance eciency
+    - B. Performance eciency  
     - C. Governance  
     - D. Reliability     
 
@@ -107,7 +107,7 @@ directly with the users.  
 
 
 11.  Which of the following is an advantage that users experience when they move on-premises workloads to the AWS Cloud?    
-    - A. Elimination of expenses for running and maintaining data centers  
+    - A. Elimination of expenses for running and maintaining data centers      
     - B. Price discounts that are identical to discounts from hardware providers
     - C. Distribution of all operational controls to AWS  
     - D. Elimination of operational expenses       
@@ -169,24 +169,24 @@ directly with the users.  
     </details>
 
 
-17.  A developer wants to deploy an application quickly on AWS without manually creating the required resources. Which AWS service will meet these requirements?    
+17.  A developer wants to deploy an application quickly on AWS without manually creating the required resources. Which AWS service will meet these requirements?      
     - A. Amazon EC2  
     - B. AWS Elastic Beanstalk  
     - C. AWS CodeBuild          
-    - D. Amazon Personalize     
+    - D. Amazon Personalize         
 
     <details markdown=1><summary markdown='span'>Answer</summary>        
       Correct answer: B
     </details>
 
-18. A company is storing sensitive customer data in an Amazon S3 bucket. The company wants to protect the data from accidental deletion or overwriting.  Which S3 feature should the company use to meet these requirements?   
-    - A. S3 Lifecycle rules    
+18. A company is storing sensitive customer data in an Amazon S3 bucket. The company wants to protect the data from accidental deletion or overwriting. Which S3 feature should the company use to meet these requirements?     
+    - A. S3 Lifecycle rules      
     - B. S3 Versioning  
     - C. S3 bucket policies
     - D. S3 server-side encryption   
 
     <details markdown=1><summary markdown='span'>Answer</summary>            
-      Correct answer: B  
+      Correct answer: B    
     </details>  
 
 19. Which AWS service provides the ability to manage infrastructure as code?
@@ -200,16 +200,15 @@ directly with the users.  
     </details>
 
 
-20.  An online gaming company needs to choose a purchasing option to run its Amazon EC2 instances for 1 year. The web trac is consistent, and any increases in trac are predictable. The EC2 instances must be online and available without any disruption.  
-Which EC2 instance purchasing option will meet these requirements MOST cost-effectively?  
+20. An online gaming company needs to choose a purchasing option to run its Amazon EC2 instances for 1 year. The web trac is consistent, and any increases in trac are predictable. The EC2 instances must be online and available without any disruption. Which EC2 instance purchasing option will meet these requirements MOST cost-effectively?      
     - A. On-Demand Instances
-    - B. Reserved Instances    
+    - B. Reserved Instances      
     - C. Spot Instances
     - D. Spot Fleet      
 
-    <details markdown=1><summary markdown='span'>Answer</summary>          
+    <details markdown=1><summary markdown='span'>Answer</summary>            
       Correct answer: B
-    </details>
+    </details>  
 
 2.    
     -    
