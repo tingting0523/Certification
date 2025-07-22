@@ -11,6 +11,7 @@ EC2 / Lambda：消费 SQS 中的消息，触发后台处理
 1.Lambda：Serverless Function 服务，让你只需上传代码即可运行，不需管理任何服务器。  
 2.EC2（Elastic Compute Cloud）：弹性云服务器服务，允许你像管理传统主机一样运行虚拟机--全功能云服务器  
 
+AWS Lambda 是一种无服务器（serverless）计算服务，允许你运行代码而无需管理服务器。你只需上传代码，Lambda 会自动处理计算资源的分配、扩展和维护。
 
 **IAM**  
 IAM：Identity and Access Management AWS 提供的身份与权限管理服务，允许你安全地控制用户和资源之间的访问权限。  
