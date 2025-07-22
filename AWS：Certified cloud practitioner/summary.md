@@ -154,4 +154,11 @@ Security group
 
 
 
+**Serverless**  
+serverless means you do not need to worry about the data or the code, you just need to plug in. 你不需要管理服务器基础设施(服务器的启动、配置、运维、扩缩容)
+Lambda、ECS Fargate、function as a service
+
+
+
+
 
