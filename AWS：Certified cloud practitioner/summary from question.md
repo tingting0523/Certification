@@ -152,11 +152,14 @@ Virtual Private Cloud 虚拟私有云：私有网络环境
    
 Security group
 
+**Amplify serverless architecture**  
+用于快速构建全栈 Web 和移动应用的平台  
+
 
 
 **Serverless**  
 serverless means you do not need to worry about the data or the code, you just need to plug in. 你不需要管理服务器基础设施(服务器的启动、配置、运维、扩缩容)
-Lambda、ECS Fargate、function as a service
+Lambda serverless framework、Amplify serverless architecture、ECS Fargate、function as a service
 
 
 
