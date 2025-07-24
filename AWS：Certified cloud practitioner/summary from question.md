@@ -26,7 +26,7 @@ Access Control List，访问控制列表
 
 
 **S3**  
-Simple Storage Service  AWS提供的可扩展、高可用、安全的对象存储服务  
+serverless object Storage  AWS提供的可扩展、高可用、安全的对象存储服务  
 无限容量的网盘/硬盘，但是放在云端；你可以把文件（叫“对象”）上传到云端，分类保存在文件夹（叫“桶” bucket）里。 
 对象存储 Object Storage   
 **AWS S3 Reduced Redundancy Storage**：Amazon S3 早期提供的一种低成本存储选项，它将对象的副本数量减少，从而降低存储成本，适用于容错要求不高的非关键数据。 
