@@ -22,15 +22,15 @@ g. Sustainability: include renewable energy, cloud efficiency, water stewardship
 h. AWS Ground Station: a fully managed ground station service.  
 i. AWS Outposts: a fully managed service that offers the same AWS infrastructure and AWS Services APIs tools. So on and so forth. That is similar to their Cloud portal, but instead, instead of AWS, hosting the hardware and managing all of that. They will send you the rack with the servers in it, and then you manage your data and everything from the AWS portal while having and maintaining the actual. Hardware from AWS within your data center.  
   
-**5.What are the differences between Regional and Global?**
+**5.What are the differences between Regional and Global?**  
 Regional only have certain permissions in a specific region.  
 Global means no regional restrictions  
   
-**6.What is the AWS Availability Zone?**
+**6.What is the AWS Availability Zone?**  
 The physical location made up of one or more datacenter.  
 AZs is one or more physical isolated data centers in AWS regions. Generally a region consist of three availability zones.   
   
-**7.Define and explain the following tools within AWS console below:**
+**7.Define and explain the following tools within AWS console below:**  
 **CLI**   
 **CloudShell**   
 **SDK**   
