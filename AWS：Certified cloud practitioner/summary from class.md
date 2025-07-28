@@ -31,15 +31,19 @@ The physical location made up of one or more datacenter.
 AZs is one or more physical isolated data centers in AWS regions. Generally a region consist of three availability zones.   
   
 **7.Define and explain the following tools within AWS console below:**  
-**CLI**   
-**CloudShell**   
-**SDK**   
-**ARN**   
-**IaC**   
+**CLI**：AWS Command Line Interface, an open-source tool that enables you to control multiple AWS services from the command line and automate them through scripts.     
+**CloudShell**: a brower-based shell that is built in within the AWS Management console. It include one free gigabyte storage, and after that, you have to pay for everything. It support scripting command line and programming.  
+**SDK**: Software Development Kit, a collection of tools and services that developers utilize, and it's all come up in one installable package.   
+**ARN**: Amazon Resource Name, Amazon Resource Names (ARNs) uniquely identify AWS resources. ARNs are required to specify a resource unambiguously across all of AWS.     
+**IaC**：Infrastructure as code, a tool that will allow us to write a configuration script so it can automate create, update, or destroy our cloud infrastructure.     
 
   
-**8.What's AWS Cloud Architecture Terminology?**
-
+**8.What's AWS Cloud Architecture Terminology?**  
+**Availability**: Your ability to ensure a service remains available eg. Highly Available (HA). High availability depends on Elastic Load Balancer（ELB）, it allows you to evenly distribute traffic to multiple servers, and one or more data center or availability zone. If one of the data center or availability zones become unhealthy, then it will balance the load across the other available data center. It will shift the traffic automatically from the affected.  
+**Scalability**: Your ability to grow rapidly or unimpeded. Ability to increase your capacity based on the increase of demand for the traffic. It include Vertical scaling/scaling up and Horizontal scaling/scaling out. When you want to run processes better, so you can use Vertical scaling to increase or upgrade your server. When a lot of people coming, so you can use Horizontal scaling to create duplicate of the same configuration of that instance.  
+**Elasticity**: Your ability to shrink and grow to meet the demand. High elasticity depends on Auto Scaling Groups (ASG), it allow you to automatically add or remove servers based on the scaling rule.  
+**Fault Tolerance**: Your ability to prevent a failure. Service remains available or remain active. Service to ensure there is no single point of failure, preventing any failure from happening.  
+**Disaster Recovery**: Your ability to recover from a failure eg. Highly Durable (DR). How quickly you can revert back. High durability is the ability to recover from a disaster and mainly prevent the loss of data.  
   
 **9.What are the different computing services within AWS? Highlight 4 services and explain their use.**
 
