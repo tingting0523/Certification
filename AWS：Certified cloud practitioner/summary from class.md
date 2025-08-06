@@ -46,13 +46,19 @@ AZs is one or more physical isolated data centers in AWS regions. Generally a re
 **Disaster Recovery**: Your ability to recover from a failure eg. Highly Durable (DR). How quickly you can revert back. High durability is the ability to recover from a disaster and mainly prevent the loss of data.  
   
 **9.What are the different computing services within AWS? Highlight 4 services and explain their use.**
-
+**1.Elastic Compute Cloud (EC2)**： a web service that provides resizable compute capacity in the cloud. It allows you to run virtual machines (instances) on-demand. Used for Host scalable web applications, Run backend processing systems, Customize instance type, storage, and network settings, and Use Auto Scaling and Load Balancing to handle traffic changes.  
+**2.Amazon LightSail**：a simplified cloud platform with pre-configured environments for websites and web applications, ideal for developers who want easy setup and low management overhead. Used for Launch websites, blogs (e.g., WordPress), and simple web apps, Use pre-packaged development stacks (LAMP, Nginx, Node.js), Includes fixed pricing and bundled storage, compute, and networking.  
+**3.Elastic Container Service (ECS)** ：a fully managed container orchestration service that allows you to run and scale containerized applications using Docker. Used for Deploy containers on EC2 or AWS Fargate, Automate service discovery, load balancing, and scaling, and Integrate with CI/CD pipelines for modern app development.  
+**4.Elastic Container Registry (ECR)** ：a fully managed Docker container registry that allows you to store, manage, and deploy container images securely. Used for Push and pull container images for use with ECS, EKS, or EC2, Secure images with AWS IAM permissions and encryption, and Integrate with build pipelines for automated image publishing.  
   
 **10.What are the different types of storage services? Highlight at least 3.**
-
+**1.Elastic Block Store (EBS)**：Block  
+**2.AWS Elastic File Storage (EFS)**：File  
+**3.Amazon Simple Storage Service (S3)**：Object  
   
 **11.What is AWS Shared Responsibility? and its Model? Explain the differences!**
-
+The AWS Shared Responsibility Model is a security and compliance framework that defines which responsibilities are handled by AWS (the cloud provider) and which are handled by you (the customer) when using AWS services. The AWS shared responsibility model helps organizations that adopt the cloud to achieve their security and compliance goals.  
+Customers are responsible for Security in the Cloud. AWS is responsible for Security of the Cloud.  
   
 **12.What are the following AWS services below?**
 **VPC**  
