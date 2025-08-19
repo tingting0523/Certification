@@ -60,19 +60,35 @@ AZs is one or more physical isolated data centers in AWS regions. Generally a re
 The AWS Shared Responsibility Model is a security and compliance framework that defines which responsibilities are handled by AWS (the cloud provider) and which are handled by you (the customer) when using AWS services. The AWS shared responsibility model helps organizations that adopt the cloud to achieve their security and compliance goals.  
 Customers are responsible for Security in the Cloud. AWS is responsible for Security of the Cloud.  
   
-**12.What are the following AWS services below?**
-**VPC**  
-**EC2**  
-**Route 53**  
-**RDS**  
-**S3**  
+**12.What are the following AWS services below?**  
+**VPC**：Virtual Private Cloud, a logically isolated section of the AWS Cloud where you can launch AWS resources. It control your virtual networking resources, Customize the network configuration for your VPC, and Use multiple layers of security.  
+**EC2**: Elastic Compute Cloud, it allow create virtual mashines. Amazon EC2 is a scalable virtual server service provided by AWS that allows users to run applications in the cloud. It provides flexible computing capacity, letting users launch and manage virtual machines (instances) with different operating systems, CPU, memory, and storage configurations. EC2 supports on-demand, reserved, and spot pricing, giving cost-effective options for various workloads. Key features include: Elasticity, Customizable, Secure, and Managed infrastructure.  
+**Route 53**: Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service provided by AWS. It translates human-readable domain names (like www.example.com) into IP addresses that computers use to connect to each other. Key Features include: Domain Registration, DNS Routing,  Health Checks and Failover, Traffic Management, Scalability and Reliability.  
+**RDS**: Relational database service. Amazon RDS is a fully managed relational database service provided by AWS. It allows users to set up, operate, and scale a relational database in the cloud with minimal administrative effort. Key features include: Managed Infrastructure, Multiple Database Engines, Scalability, High Availability, Security.   
+**S3**: Amazon S3 is a scalable, durable, and secure object storage service provided by AWS. It allows users to store and retrieve any amount of data from anywhere on the web. S3 is designed for high availability and 99.999999999% (11 nines) durability, making it suitable for a wide range of use cases, including backup and restore, data archiving, big data analytics, content distribution, and hosting static websites. Key Features include: Object Storage, Scalability, Security, Storage Classes, Integration.  
 
   
-**13.What's the difference between a Dedicated and Spot on EC2?**
-
+**13.What's the difference between a Dedicated and Spot on EC2?**  
+**Dedicated Instances**:  
+Run on single-tenant hardware dedicated to your account.  
+Ensure isolation from other AWS customers.  
+Suitable for workloads with strict compliance or licensing requirements.  
+Billed at standard On-Demand or Reserved rates.  
+**Spot Instances**:  
+Use unused EC2 capacity at heavily discounted rates (up to ~90% off).  
+Can be interrupted by AWS with a 2-minute notice if capacity is needed elsewhere.  
+Ideal for fault-tolerant, flexible, or batch-processing workloads.  
   
-**14.What's the difference between On-Demand and Reserved EC2?**
-
+  
+**14.What's the difference between On-Demand and Reserved EC2?**  
+**On-Demand Instances**:  
+Pay by the hour or second with no long-term commitment.  
+Flexible and ideal for short-term, unpredictable workloads.  
+Higher cost per unit of compute compared to reserved instances.  
+**Reserved Instances (RI)**:  
+Commit to a 1- or 3-year term for a specific instance type.  
+Lower hourly rate compared to On-Demand.  
+Best for steady-state or predictable workloads to reduce costs.  
   
 **15.What's the difference between VMs and Containers?**
 
